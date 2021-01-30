@@ -981,7 +981,6 @@ static int __ref cpu_callback(struct notifier_block *nfb,
 static struct notifier_block __refdata cpu_notifier = {
 	.notifier_call = cpu_callback,
 };
-
 /* ============================ init code ============================== */
 
 static int group_init(struct cpumask *mask)
