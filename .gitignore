@@ -100,5 +100,10 @@ all.config
 # fetched Android config fragments
 android/configs/android-*.cfg
 
-# objects
+#
+#Ignoring Android.bp link file
+#
+Android.bp
+
+# Object directory
 out/
